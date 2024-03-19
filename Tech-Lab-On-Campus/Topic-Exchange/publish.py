@@ -35,7 +35,9 @@ def main(ticker: str, price: float, sector: str) -> None:
     #                       WRITE CODE HERE!!!
     #
 
-    message = "{ticker}" + " is " + "{price}" + " in the " + "{sector}" + " sector"
+    message =  ticker + " is $" + price + " in the " + sector + " sector"
+
+    
 
     
     
